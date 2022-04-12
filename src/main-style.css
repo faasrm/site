@@ -39,6 +39,10 @@
 */
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Fira+Mono&family=Lato:wght@400;700&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Lato', sans-serif;
 
@@ -80,6 +84,10 @@ body {
 
 .font-60 {
     font-size: 60px;
+}
+
+.font-30 {
+    font-size: 30px;
 }
 
 .no-underline {
@@ -185,4 +193,80 @@ body {
 .hover\:light-gray:hover {
     color: #7d88ac;
     transition: 0.2s;
+}
+
+.h-screen {
+    height: 100vh;
+}
+
+@media(min-width: 640px) { /* sm */
+
+}
+
+@media(min-width: 768px) { /* md */
+
+}
+
+@media(min-width: 1024px) { /* lg */
+
+}
+
+@media(min-width: 1280px) { /* xl */
+
+}
+
+@media(min-width: 1536px) { /* 2xl */
+
+}
+
+/* ::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+} */
+
+.mt-500 {
+    margin-top: 500px;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.left-0 {
+    left: 0;
+}
+
+.right-0 {
+    right: 0;
+}
+
+.bottom-0 {
+    bottom: 0;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.h-20 {
+    height: 20px;
+}
+
+.bg-red {
+    background-color: #ff0000;
 }
