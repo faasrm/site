@@ -270,3 +270,7 @@ body {
 .bg-red {
     background-color: #ff0000;
 }
+
+.mw-500 {
+    max-width: 500px;
+}
